@@ -1,0 +1,9 @@
+mowned:
+  model-not-exist: Mowned 内暂无 “{0}” 相关资源。
+  await-choose-result: 请发送您想查看的机型编号。
+  error-with-link: Mowned 搜索时出现问题。
+  incorrect-index: 输入选项有误。
+  models@list:
+    header: 机型搜索结果：
+    item: '{key}. {value}'
+    footer: 请输入最符合的机型序号。
