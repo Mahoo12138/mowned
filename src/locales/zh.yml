@@ -7,3 +7,10 @@ mowned:
     header: 机型搜索结果：
     item: '{key}. {value}'
     footer: 请输入最符合的机型序号。
+  user-not-exist: 搜索的用户“{0}”不存在。
+  user-never-add-phones: 用户“{0}”还未添加任何记录。
+  phones@list:
+    header: 的机型记录列表：
+    item: '{value}'
+    footer: 其中有你的一部分回忆吗？
+  now: 至今
