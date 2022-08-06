@@ -1,22 +1,41 @@
 {
   "name": "koishi-plugin-mowned",
-  "description": "",
-  "private": true,
-  "version": "1.0.0",
+  "description": "一个在 Koishi 中查询 [Mowned](https://mowned.com/) 手机图片的插件",
+  "private": false,
+  "version": "0.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
+  "author": "Mahoo12138 <mahoo12138@qq.com>",
   "license": "MIT",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahoo12138/koishi-plugin-mowned.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mahoo12138/koishi-plugin-mowned/issues"
+  },
+  "homepage": "https://github.com/Mahoo12138/koishi-plugin-mowned",
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "mowned"
   ],
   "peerDependencies": {
-    "koishi": "^4.8.3"
+    "koishi": "^4.0.0"
+  },
+  "koishi": {
+    "description": {
+      "en": "Search for phones on Mowned",
+      "zh": "在 Mowned 搜索手机图片"
+    },
+    "locales": [
+      "zh"
+    ]
   }
 }
